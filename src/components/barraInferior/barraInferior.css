@@ -1,0 +1,34 @@
+.barra_inferior {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .barra_inferior ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barra_inferior ul li {
+    margin: 0 15px;
+  }
+  
+  .barra_inferior ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .barra_inferior ul li a:hover {
+    text-decoration: underline;
+  }
+  

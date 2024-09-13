@@ -1,0 +1,107 @@
+.container{
+    width: 400px;
+    background-color:#ffffff99;
+    backdrop-filter: blur(10px);
+    border: 2px sold #ffffff99;
+    padding: 35px;
+    border-radius:10px;
+}
+
+.container h1{
+    text-align:center;
+    font-size: 25px;
+    color: #221a1a;
+}
+
+
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    
+    border: 2px solid rgba(23, 21, 21, 0.548);
+    border-radius: 40px;
+    color: #221a1a;
+    padding: 20px 25px;
+}
+
+.input-field input::placeholder{
+    color: #221a1a;
+}
+
+.input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #221a1a;
+}
+
+.container .recall-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size:14.5px;
+    margin: -15px 0 15px;
+}
+
+.recall-forget label {
+    color: #221a1a;
+}
+
+.recall-forget input{
+    margin-right:5px;
+}
+
+.recall-forget a, .signup-link p a{
+    color: #221a1a;
+    text-decoration: none;
+}
+
+.recall-forget a:hover, .signup-link p a{
+    text-decoration: underline;
+}
+
+.container button{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(44, 142, 169, 0.555);
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(44, 142, 169, 0.555);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.container .signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    text-shadow: none;
+}
+
+@media (max-width:200px){
+    .container{
+        font-size: 60px;;
+    }
+    .container h1{
+        font-size: 10px;
+    }
+    .container .input-field{
+        font-size: 10px;
+    }
+}
+
+.barra_inferior{
+    color:black;
+}

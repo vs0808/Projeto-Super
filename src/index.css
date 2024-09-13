@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("assets/prontuario.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
